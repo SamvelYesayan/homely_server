@@ -28,14 +28,13 @@ return new class extends Migration
             $table->string('broker_photo');
             $table->string('broker_email')->nullable();
             $table->string('broker_phone')->nullable();
-            $table->boolean('new-built');
+            $table->boolean('new_built');
             $table->boolean('sale');
             $table->string('surface');
             $table->string('number_of_rooms');
             $table->string('state');
             $table->string('district')->nullable();
             $table->string('property_type');
-            $table->string('rooms');
             $table->string('building_type');
             $table->string('status');
             $table->timestamps();

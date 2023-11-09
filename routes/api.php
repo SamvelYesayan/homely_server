@@ -24,4 +24,4 @@ Route::post('auth/signin',[UserController::class,'auth_signin'])->name('auth_sig
 
 Route::post('admin/get/requests',[AdminController::class,'admin_get_requests'])->name('admin_get_requests');
 Route::post('admin/accept/request',[AdminController::class,'admin_accept_request'])->name('admin_accept_request');
-
+Route::post('admin/add/product',[AdminController::class, 'admin_add_product'])->name('admin_add_product');
