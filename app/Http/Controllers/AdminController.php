@@ -19,5 +19,6 @@ class AdminController extends Controller
         $user = User::find($userId);
         $password = Str::random(6);
 
+
     }
 }
